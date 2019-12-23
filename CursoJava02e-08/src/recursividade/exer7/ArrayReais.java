@@ -12,7 +12,7 @@ package recursividade.exer7;
 public class ArrayReais {
     int somaArray(int v[],int n){
         if (n == 0) return 0;
-        return v[n-1] +soma(v,n-1);
+        return v[n-1] +somaArray(v,n-1);
     }
     
 }
